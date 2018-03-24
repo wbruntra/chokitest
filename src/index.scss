@@ -1,0 +1,7 @@
+@import './colors';
+@import './fonts';
+@import 'bulma/bulma.sass';
+
+body {
+  background-color: $blue;
+}

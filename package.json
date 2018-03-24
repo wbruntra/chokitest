@@ -1,0 +1,19 @@
+{
+  "name": "chokitest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass-chokidar --include-path ./node_modules/ src/index.scss build/index.css",
+    "watch-css": "node-sass-chokidar --include-path ./node_modules/ src/index.scss build/index.css --watch",
+    "watch-noinit": "node-sass-chokidar --include-path ./node_modules/ src/index.scss build/index.css --watch --skip-initial",
+    "watch-dir": "node-sass-chokidar --include-path ./node_modules/ src/ -o build/ --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^0.6.2",
+    "node-sass-chokidar": "^1.2.1"
+  }
+}
